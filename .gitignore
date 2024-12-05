@@ -50,3 +50,74 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore build output directories
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# Visual Studio specific files
+.vscode/
+.vs/
+.vscode/settings.json
+.vscode/tasks.json
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.obj
+*.exe
+*.pch
+*.pdb
+*.ilk
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.ipch
+*.idb
+*.tlog
+
+# Ignore build artifacts
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Ignore generated files
+*.exe
+*.out
+*.class
+*.bin
+*.hex
+*.elf
+*.map
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignore directories created by Visual Studio and build systems
+.idea/
+__pycache__/
+*.pyc
+*.log
+
+# Ignore compiled C files
+*.d
+
+# Ignore editor and OS-specific files
+*.DS_Store
+Thumbs.db
+*.log
